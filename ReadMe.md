@@ -124,8 +124,8 @@ Faithless|Music Matters (Mark Knight Dub)|495.30731201171875
 `SELECT artist, song, first_name, last_name FROM music_app_history_user_sessionId WHERE user_id = 10 AND session_id = 182`
 
 #### *Output*:
-artist | song | length
-------|--------- |-----------
+artist | song | first_name | lastname 
+-------|------|------------|----------
 Down To The Bone | Keep On Keepin' On | Sylvie | Cruz
 Three Drives | Greece 2000 | Sylvie | Cruz
 Sebastien Tellier | Kilometer | Sylvie | Cruz
